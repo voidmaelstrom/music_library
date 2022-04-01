@@ -2,12 +2,12 @@
 // component to serve specific data about a given album
 import '../App.css'
 import { useParams, useNavigate } from 'react-router-dom'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 function AlbumView() {
     const navigate = useNavigate()
     const { id } = useParams()
-    const [ albumData, setAlbumData ] = useState([])
+    const [ albumData ] = useState([])
 
     const navButtons = () => {
         return(
