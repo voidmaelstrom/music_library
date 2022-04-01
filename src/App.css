@@ -2,6 +2,30 @@
   text-align: center;
 }
 
+.mainSearch {
+  font-size: 20px;
+  text-align: center;
+  margin: 40px;
+  border: 1px solid blue;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.albumView {
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  border: 1px solid purple;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.artistView {
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  border: 1px solid darkviolet;
+  font-family: 'Times New Roman, Times, serif';
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

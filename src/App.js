@@ -35,7 +35,7 @@ const App = () => {
   }
 
   return (
-    <div>
+    <div className='mainSearch'>
     {message}
         <Router>
             <Routes>
