@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 function GalleryItem(props) {
-    let [view, setView] = useState(false)
+    let [view, toggleView] = useState(false)
 
     const simpleStyle = {
       'width': '25vw',
@@ -52,7 +52,7 @@ function GalleryItem(props) {
     }
 
     return (
-        <div onClick={() => setView(!view)}
+        <div onClick={() => toggleView(!view)}
         style={{'display': 'inline-block'}}>
         
             {/* This simple ternary shows the simple view when 'view' is false! */}
